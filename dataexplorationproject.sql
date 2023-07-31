@@ -71,7 +71,7 @@ order by TotalDeathCount desc
 
 
 
---alex tutorials 2
+--visualization 2
 
 select location, sum (total_deaths) as TotalDeathCount
 from portfolioprojects..CovidDeaths 
@@ -82,7 +82,7 @@ Group by location
 --group by continent
 order by TotalDeathCount desc
 
---alex tutorial 3
+--visualization 3
 
 --Select Location, Population, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
 --From PortfolioProject..CovidDeaths
@@ -95,7 +95,7 @@ from portfolioprojects..CovidDeaths
 group by location,population
 order by 4 desc
 
---alex tutorial 4
+--visualization 4
 
 
 --Select Location, Population,date, MAX(total_cases) as HighestInfectionCount,  Max((total_cases/population))*100 as PercentPopulationInfected
